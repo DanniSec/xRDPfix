@@ -8,6 +8,8 @@ To create these polkit exceptions, we will need to create some additional files 
 
 `/etc/polkit-1/localauthority/50-local.d/`
 
+**Both files can be found in this repository, so you can just clone it**
+
 We already know that to fix the “Authentication required to create managed color device” popup, we simply have created a file called **45-allow-colord.pkla** and populate it with the following content.
 
 ```
