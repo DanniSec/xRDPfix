@@ -1,4 +1,4 @@
-## xRDPfix
+## xRDP Polkit fix
 xRDP 'Authentication required to refresh system repositories' fix
 
 Problem is with xRDP Polkit technology used in Ubuntu system Polkit check if a user is authorized to perform a certain number of actions.  Different Polkit rules are being applied when a user is logged on locally on a machine or when remotely connected to the system. Basically, when remotely connected, the Polkit rules are more restrictive and we need to create exceptions in order for the user to perform actions that would not prompt for authentication dialog box when locally connected on a computer.
